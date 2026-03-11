@@ -9,10 +9,9 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 
 local Window = Rayfield:CreateWindow({
-   Name = "🚗 +1 Speed Escape Supercar [BEST & FREE]",
+   Name = "🚘 +1 Speed Escape Supercar [BEST & FREE]",
    LoadingTitle = "🎲 L1inb7 Hub",
    LoadingSubtitle = "by l1inb7",
-   Theme = " Amethyst",
    ConfigurationSaving = {
       Enabled = false,
       FileName = "L1inb7Hub"
@@ -72,51 +71,15 @@ end)
 ----------------------------------------------------
 
 MainTab:CreateDropdown({
-   Name = "Equip Supercar",
+   Name = "Equip Skateboard",
    Options = {
-"Basic",
-"Abstract",
-"Blossom",
-"Doodle",
-"Tropical",
-"Cabin",
-"Purple Prism",
-"Hardware",
-"Rainbow Cloud",
-"VIP",
-"Red Ufo",
-"Bat",
-"Blue Prism",
-"Blue Ripstick",
-"Red Ripstick",
-"Golden Ripstick",
-"Golden",
-"White Surf Board",
-"Rocket",
-"Like Board",
-"Checkers",
-"RainbowSwirl",
-"Orange Surf Board",
-"Rover",
-"Shark",
-"Floral",
-"Tiger",
-"Red Surf Board",
-"Cyber",
-"Blackbird",
-"Polar",
-"Snowy",
-"White Snowboard",
-"Snowflake",
-"Northern Star",
-"Autumn Leaf",
-"Turkey Leg",
-"Spring Egg",
-"Sky Blue Egg",
-"Mushroom Egg",
-"Galaxy Egg",
-"The Hatch Egg"
-      }
+   "Basic","Blossom","Tiger","Tropical","Golden","Snowy",
+   "Blue Ripstick","Blue Prism","Rainbow Cloud","Golden Ripstick",
+   "VIP","Rover","Cyber","Shark","Bat","Rocket","Red Ufo","Northern Star","Abstract","Doodle","Cabin","Purple Prism","Hardware",
+"Red Ripstick","White Surf Board","Like Board","Checkers","RainbowSwirl",
+"Orange Surf Board","Floral","Red Surf Board","Blackbird","Polar",
+"White Snowboard","Snowflake","Autumn Leaf","Turkey Leg",
+"Spring Egg","Sky Blue Egg","Mushroom Egg","Galaxy Egg","The Hatch Egg"
    },
    CurrentOption = {"Basic"},
    MultipleOptions = false,
@@ -135,7 +98,7 @@ MainTab:CreateDropdown({
 
 MainTab:CreateParagraph({
    Title = "🎲 Information",
-   Content = "• Equip selected car instantly and absolutely free!\n‼️ WARNING: Some of them may not work cuz im lazy to check it now"
+   Content = "• Equip selected skateboard instantly and absolutely free!\n‼️ Some of them may not working"
 })
 
 ----------------------------------------------------
@@ -265,14 +228,14 @@ local InfoTab = Window:CreateTab("🎲 Info", nil)
 
 InfoTab:CreateParagraph({
    Title = "🎲 Information",
-   Content = "\n‼️ Script Version\nv0.9 PRE-RELEASE\n\n‼️ Script created by l1inb7\nYouTube: l1inb7_scriptss\n\n💬 Message From l1inb7\nwhile writing the script, I was amused that the developers were too lazy to change the scripts for their game, they didn’t even change the names of the supercars in the scripts, seriously"
+   Content = "\n‼️ Script Version\nv0.9\n\n‼️ Script created by l1inb7\nYouTube: l1inb7_scriptss\n\n💬 Message From l1inb7\nWhile writing the script, I was laughing that the developers were too lazy to change the scripts for their game, they didn’t even change the names of the supercars in the scripts, seriously"
 })
 
 InfoTab:CreateButton({
    Name = "Copy YouTube Channel",
    Callback = function()
 
-     setclipboard("https://www.youtube.com/@l1inb7_scriptss")
+      setclipboard("https://www.youtube.com/@l1inb7_scriptss")
 
       Rayfield:Notify({
          Title = "L1inb7 Hub",
@@ -282,3 +245,4 @@ InfoTab:CreateButton({
 
    end,
 })
+
