@@ -71,7 +71,7 @@ end)
 ----------------------------------------------------
 
 MainTab:CreateDropdown({
-   Name = "Equip Skateboard",
+   Name = "Equip Supercar",
    Options = {
    "Basic","Blossom","Tiger","Tropical","Golden","Snowy",
    "Blue Ripstick","Blue Prism","Rainbow Cloud","Golden Ripstick",
@@ -98,7 +98,7 @@ MainTab:CreateDropdown({
 
 MainTab:CreateParagraph({
    Title = "🎲 Information",
-   Content = "• Equip selected skateboard instantly and absolutely free!\n‼️ Some of them may not working"
+   Content = "• Equip selected car instantly and absolutely free!\n‼️ Some of them may not work, they glad same name cuz devs are lazy lol"
 })
 
 ----------------------------------------------------
