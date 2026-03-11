@@ -74,48 +74,8 @@ end)
 MainTab:CreateDropdown({
    Name = "Equip Supercar",
    Options = {
-"Basic",
-"Abstract",
-"Blossom",
-"Doodle",
-"Tropical",
-"Cabin",
-"Purple Prism",
-"Hardware",
-"Rainbow Cloud",
-"VIP",
-"Red Ufo",
-"Bat",
-"Blue Prism",
-"Blue Ripstick",
-"Red Ripstick",
-"Golden Ripstick",
-"Golden",
-"White Surf Board",
-"Rocket",
-"Like Board",
-"Checkers",
-"RainbowSwirl",
-"Orange Surf Board",
-"Rover",
-"Shark",
-"Floral",
-"Tiger",
-"Red Surf Board",
-"Cyber",
-"Blackbird",
-"Polar",
-"Snowy",
-"White Snowboard",
-"Snowflake",
-"Northern Star",
-"Autumn Leaf",
-"Turkey Leg",
-"Spring Egg",
-"Sky Blue Egg",
-"Mushroom Egg",
-"Galaxy Egg",
-"The Hatch Egg"
+"Basic", "Abstract", "Blossom", "Doodle", "Tropical", "Cabin", "Purple Prism", "Hardware","Rainbow Cloud","VIP","Red Ufo","Bat","Blue Prism","Blue Ripstick",
+"Red Ripstick","Golden Ripstick","Golden","White Surf Board","Rocket","Like Board","Checkers","RainbowSwirl","Orange Surf Board","Rover","Shark","Floral","Tiger","Red Surf Board","Cyber","Blackbird","Polar","Snowy","White Snowboard","Snowflake","Northern Star","Autumn Leaf","Turkey Leg","Spring Egg","Sky Blue Egg","Mushroom Egg","Galaxy Egg","The Hatch Egg"
       }
    },
    CurrentOption = {"Basic"},
@@ -265,7 +225,7 @@ local InfoTab = Window:CreateTab("🎲 Info", nil)
 
 InfoTab:CreateParagraph({
    Title = "🎲 Information",
-   Content = "\n‼️ Script Version\nv0.9 [PRE-RELEASE]\n\n‼️ Script created by l1inb7\nYouTube: l1inb7_scriptss\n\n💬 Message From l1inb7\nwhile writing the script, I was amused that the developers were too lazy to change the scripts for their game, they didn’t even change the names of the supercars in the scripts, seriously"
+   Content = "\n‼️ Script Version\nv0.9 PRE-RELEASE\n\n‼️ Script created by l1inb7\nYouTube: l1inb7_scriptss\n\n💬 Message From l1inb7\nwhile writing the script, I was amused that the developers wePRE-RELEASE to change the scripts for their game, they didn’t even change the names of the supercars in the scripts, seriously"
 })
 
 InfoTab:CreateButton({
