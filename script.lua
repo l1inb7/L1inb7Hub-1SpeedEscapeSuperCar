@@ -9,7 +9,7 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 
 local Window = Rayfield:CreateWindow({
-   Name = "🚘 +1 Speed Escape Supercar [BEST & FREE]",
+   Name = "🚗 +1 Speed Escape Supercar [BEST & FREE]",
    LoadingTitle = "🎲 L1inb7 Hub",
    LoadingSubtitle = "by l1inb7",
    ConfigurationSaving = {
